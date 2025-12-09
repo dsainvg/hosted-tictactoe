@@ -1,0 +1,9 @@
+[server]
+headless = true
+
+[runner]
+magicEnabled = false
+
+[logger]
+level = "error"
+messageFormat = "%(asctime)s %(message)s"
