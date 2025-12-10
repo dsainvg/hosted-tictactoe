@@ -60,5 +60,5 @@ This will launch the application in your default web browser (usually at `http:/
 The AI uses a feedforward neural network defined in `utils.py`. It takes the current board state as input and outputs the probability distribution for the next best move. The model is loaded from `model.pth`.
 
 - **Input:** 9 board positions (0 for empty, 1 for player, -1 for AI)
-- **Architecture:** 4 hidden layers with ReLU activation.
+- **Architecture:** 4 hidden layers with ReLU activation plus 1 output layer (total 5 layers).
 - **Output:** Probabilities for each of the 9 positions.
